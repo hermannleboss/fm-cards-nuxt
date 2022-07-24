@@ -1,0 +1,108 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.spcc {
+  background-color: hsl(233, 47%, 7%);
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  height: 100vh;
+
+  &-card-container {
+    background-color: hsl(244, 38%, 16%);
+    width: 327px;
+    @media (min-width: 992px) {
+      width: 1110px;
+    }
+  }
+
+  &-card-content {
+    border-radius: 10px 0 0 10px;
+    grid-column: 1/1;
+    padding: 45px 31.5px 31.5px;
+    @media (min-width: 992px) {
+      width: 570px;
+      padding: 71px 72px 72px 95px;
+    }
+  }
+}
+
+.counter {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 5px;
+  line-height: 29px;
+  @media (min-width: 992px) {
+    padding-top: 72px;
+  }
+}
+
+.counter-heading {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.bg-img-sm {
+  border-radius: 10px 10px 0 0;
+  background-image: url('~/static/images/image-header-desktop.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: -50px;
+}
+
+.bg-img-sm div {
+  width: 100%;
+  height: 100px;
+  background-color: hsl(277, 64%, 61%);
+  mix-blend-mode: multiply;
+  margin-top: -20px;
+  margin-bottom: -40px;
+  overflow: hidden;
+}
+
+.bg-img {
+  background-image: url('~/static/images/image-header-desktop.jpg');
+  background-color: hsl(277, 64%, 61%);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  height: 240px;
+  @media (min-width: 992px) {
+    width: 540px;
+    height: auto;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  @media (min-width: 992px) {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
