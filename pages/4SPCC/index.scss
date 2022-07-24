@@ -1,5 +1,24 @@
 @import url('https://rsms.me/inter/inter.css');
 
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  @media (min-width: 992px) {
+    //font-size: 36px;
+    line-height: 44px;
+  }
+}
+
 .spcc {
   background-color: hsl(233, 47%, 7%);
   color: hsl(0, 0%, 100%);
@@ -43,25 +62,6 @@
   color: hsla(0, 0%, 100%, 0.6);
 }
 
-.bg-img-sm {
-  border-radius: 10px 10px 0 0;
-  background-image: url('~/static/images/image-header-desktop.jpg');
-  background-repeat: no-repeat, repeat;
-  background-size: cover;
-  overflow: hidden;
-  padding: -50px;
-}
-
-.bg-img-sm div {
-  width: 100%;
-  height: 100px;
-  background-color: hsl(277, 64%, 61%);
-  mix-blend-mode: multiply;
-  margin-top: -20px;
-  margin-bottom: -40px;
-  overflow: hidden;
-}
-
 .bg-img {
   background-image: url('~/static/images/image-header-desktop.jpg');
   background-color: hsl(277, 64%, 61%);
@@ -84,24 +84,6 @@
   color: hsl(228, 45%, 44%);
 }
 
-p {
-  color: hsla(0, 0%, 100%, 0.75);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
-}
-
-h1 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 32px;
-  @media (min-width: 992px) {
-    //font-size: 36px;
-    line-height: 44px;
-  }
-}
 
 span {
   color: hsl(277, 64%, 61%);
